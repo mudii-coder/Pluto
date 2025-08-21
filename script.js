@@ -2,22 +2,22 @@ const products = [
   {
     name: "تيشيرت أسود كلاسيك",
     price: "250 جنيه",
-    image: "https://via.placeholder.com/300x250?text=T-Shirt+Black"
+    image: "images/tshirt1.jpg"
   },
   {
     name: "تيشيرت أبيض سادة",
     price: "230 جنيه",
-    image: "https://via.placeholder.com/300x250?text=T-Shirt+White"
+    image: "images/tshirt2.jpg"
   },
   {
     name: "تيشيرت أزرق كاجوال",
     price: "270 جنيه",
-    image: "https://via.placeholder.com/300x250?text=T-Shirt+Blue"
+    image: "images/tshirt3.jpg"
   },
   {
     name: "تيشيرت رياضي رمادي",
     price: "300 جنيه",
-    image: "https://via.placeholder.com/300x250?text=T-Shirt+Gray"
+    image: "images/tshirt4.jpg"
   }
 ];
 
@@ -30,7 +30,7 @@ products.forEach(product => {
     <img src="${product.image}" alt="${product.name}">
     <h3>${product.name}</h3>
     <p>${product.price}</p>
-    <a href="https://wa.me/201234567890" class="btn" target="_blank">اطلب عبر واتساب</a>
+    <a href="https://wa.me/201125278228" class="btn" target="_blank">ORDER NOW</a>
   ;
   grid.appendChild(div);
 });

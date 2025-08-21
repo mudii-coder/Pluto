@@ -30,7 +30,7 @@ products.forEach(product => {
     <img src="${product.image}" alt="${product.name}">
     <h3>${product.name}</h3>
     <p>${product.price}</p>
-    <a href="https://wa.me/201125278228" class="btn" target="_blank">ORDER NOW</a>
+    <a href="https://wa.me/201125278228" class="btn" target="_blank">ORER NOW</a>
   ;
   grid.appendChild(div);
 });
